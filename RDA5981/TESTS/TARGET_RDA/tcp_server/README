@@ -1,0 +1,6 @@
+1.主要实现tcp_server功能。
+2.操作步骤：
+2-1 启动程序，5981会启动AP：RDA_TCP_SERVER；
+2-2 client端连接AP及server，ip address：请见串口的打印；port number：8000；
+2-3 client端发送数据到server，server端收到数据，会回复"hello world"。
+    client端不发送数据到server,server端不会发送数据。
